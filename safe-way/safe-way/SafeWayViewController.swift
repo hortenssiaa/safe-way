@@ -9,9 +9,16 @@ import UIKit
 
 class SafeWayViewController: UIViewController {
     
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var descriptionLable: UILabel!
+    @IBOutlet weak var makersLable: UILabel!
+    @IBOutlet weak var donateButton: UIButton!
+    @IBOutlet weak var donateSubtitleLable: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        logoImageView.image = UIImage(named: "icon")
+        iconImageView.image = UIImage(named: "icon")
     }
 }
