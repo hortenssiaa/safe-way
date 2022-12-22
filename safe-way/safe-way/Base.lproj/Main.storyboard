@@ -114,6 +114,14 @@
                             <constraint firstItem="I55-4O-0Jg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wqc-pT-ZwQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLable" destination="78Y-Ug-2sS" id="g7O-ln-0Iv"/>
+                        <outlet property="donateButton" destination="rJc-YK-Xpx" id="whH-vo-NlU"/>
+                        <outlet property="donateSubtitleLable" destination="iU7-i7-57Z" id="Z4r-p1-HUp"/>
+                        <outlet property="iconImageView" destination="X7z-n2-T5d" id="NaV-bA-wqE"/>
+                        <outlet property="makersLable" destination="vRH-vb-ljI" id="SWW-KV-dQm"/>
+                        <outlet property="titleLable" destination="GFX-2T-5zi" id="k1h-Yv-U1l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
